@@ -4,8 +4,7 @@ Purpose
 Enhance the Sitecore 7 Lucene Document Builder to take language fallback into account when generating indexes.
 
 Compatibility
-This is for use with Sitecore 7 and the latest version of the ADC project on Github
-https://github.com/sitecorian/SitecoreSearchContrib
+This is for use with Sitecore 7
 It has been verified to work with Sitecore 7.2 update 2
 And it assumes you are using the latest version of the Partial Language Fallback Module
 http://marketplace.sitecore.net/en/Modules/Language_Fallback.aspx
@@ -17,7 +16,7 @@ How to build code and deploy the solution
 
 3. Put the CustomLuceneDocumentBuilder.cs in your project
 
-3. Look at the Sitecore.SharedSource.PartialLanguageFallback.config file for the patch to the documentBuilderType attribute.  Apply the same patch in your project
+4. Look at the Sitecore.SharedSource.PartialLanguageFallback.config file for the patch to the documentBuilderType attribute.  Apply the same patch in your project
 
 
 Testing
